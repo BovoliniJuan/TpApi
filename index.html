@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rick and Morty API</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <h1>Personajes de Rick and Morty</h1>
+
+  <div class="filtros">
+    <input type="text" id="name" placeholder="Nombre" />
+    <input type="text" id="status" placeholder="Estado (alive, dead, unknown)" />
+    <input type="text" id="species" placeholder="Especie" />
+    <input type="text" id="type" placeholder="Tipo" />
+    <input type="text" id="gender" placeholder="Género (female, male, genderless, unknown)" />
+    <button id="btnFiltrar">Filtrar</button>
+    <button id="btnTodos">Mostrar todos</button>
+  </div>
+
+  <div id="resultado" class="resultado"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
